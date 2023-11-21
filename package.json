@@ -1,0 +1,22 @@
+{
+  "name": "macish-icons",
+  "displayName": "Macish Icons",
+  "description": "File icons for Visual Studio Code inspired by original file icons of Panic's Nova editor.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "macish-icons",
+        "label": "Macish Icons",
+        "path": "./macish-icon-theme.json"
+      }
+    ]
+  }
+}

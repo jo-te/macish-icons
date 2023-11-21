@@ -1,0 +1,137 @@
+{
+  "iconDefinitions": {
+    "_folder": {
+      "iconPath": "./icons/folder.png"
+    },
+    "_folder-open": {
+      "iconPath": "./icons/folder-open.png"
+    },
+    "_git-folder": {
+      "iconPath": "./icons/git-filder.png"
+    },
+    "_src-folder": {
+      "iconPath": "./icons/src-folder.png"
+    },
+    "_src-folder-open": {
+      "iconPath": "./icons/src-folder-open.png"
+    },
+    "_blank": {
+      "iconPath": "./icons/blank-file.png"
+    },
+    "_git": {
+      "iconPath": "./icons/git-file.png"
+    },
+    "_dotenv": {
+      "iconPath": "./icons/dotenv-file.png"
+    },
+    "_docker": {
+      "iconPath": "./icons/docker-file.png"
+    },
+    "_json": {
+      "iconPath": "./icons/json-file.png"
+    },
+    "_css": {
+      "iconPath": "./icons/css-file.png"
+    },
+    "_sass": {
+      "iconPath": "./icons/sass-file.png"
+    },
+    "_ts": {
+      "iconPath": "./icons/ts-file.png"
+    },
+    "_d-ts": {
+      "iconPath": "./icons/d-ts-file.png"
+    },
+    "_tsbuildinfo": {
+      "iconPath": "./icons/tsbuildinfo-file.png"
+    },
+    "_spec-ts": {
+      "iconPath": "./icons/spec-ts-file.png"
+    },
+    "_tsx": {
+      "iconPath": "./icons/tsx-file.png"
+    },
+    "_js": {
+      "iconPath": "./icons/js-file.png"
+    },
+    "_spec-js": {
+      "iconPath": "./icons/spec-js-file.png"
+    },
+    "_jsx": {
+      "iconPath": "./icons/jsx-file.png"
+    },
+    "_eslint": {
+      "iconPath": "./icons/eslint-file.png"
+    },
+    "_svelte": {
+      "iconPath": "./icons/svelte-file.png"
+    },
+    "_sveltekit": {
+      "iconPath": "./icons/sveltekit-file.png"
+    },
+    "_astro": {
+      "iconPath": "./icons/astro-file.png"
+    },
+    "_python": {
+      "iconPath": "./icons/python-file.png"
+    },
+    "_html": {
+      "iconPath": "./icons/html-file.png"
+    },
+    "_markdown": {
+      "iconPath": "./icons/markdown-file.png"
+    },
+    "_pdf": {
+      "iconPath": "./icons/pdf-file.png"
+    },
+  },
+  "folder": "_folder",
+  "folderExpanded": "_folder-open",
+  "file": "_blank",
+  "folderNames": {
+    "src": "_src-folder"
+  },
+  "folderNamesExpanded": {
+    "src": "_src-folder-open"
+  },
+  "fileExtensions": {
+    "env": "_dotenv",
+    "json": "_json",
+    "css": "_css",
+    "scss": "_sass",
+    "sass": "_sass",
+    "ts": "_ts",
+    "d.ts": "_d-ts",
+    "tsx": "_tsx",
+    "spec.ts": "_spec-ts",
+    "js": "_js",
+    "jsx": "_jsx",
+    "spec.js": "_spec-js",
+    "svelte": "_svelte",
+    "astro": "_astro",
+    "py": "_python",
+    "html": "_html",
+    "md": "_markdown",
+    "pdf": "_pdf",
+  },
+  "fileNames": {
+    ".gitignore": "_git",
+    // Eslint
+    ".eslintrc.js": "_eslint",
+    ".eslintrc.cjs": "_eslint",
+    ".eslintrc.yaml": "_eslint",
+    ".eslintrc.yml": "_eslint",
+    ".eslintrc.json": "_eslint",
+    // Typescript
+    ".tsbuildinfo": "_tsbuildinfo",
+    // Svelte
+    "+layout.svelte": "_sveltekit",
+    "+page.svelte": "_sveltekit",
+    // Docker
+    ".dockerignore": "_docker",
+    "compose.yaml": "_docker",
+    "compose.yml": "_docker",
+    "docker-compose.yaml": "_docker",
+    "Dockerfile": "_docker"
+  }
+}
