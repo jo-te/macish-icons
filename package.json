@@ -3,6 +3,7 @@
   "displayName": "Macish Icons",
   "description": "File icons for Visual Studio Code inspired by original file icons of Panic's Nova editor.",
   "version": "0.0.1",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -18,5 +19,9 @@
         "path": "./macish-icon-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jo-te/macish-icons.git"
   }
 }
