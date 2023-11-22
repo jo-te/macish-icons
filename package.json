@@ -4,6 +4,7 @@
   "description": "File icons for Visual Studio Code inspired by original file icons of Panic's Nova editor.",
   "version": "0.0.1",
   "icon": "icon.png",
+  "publisher": "jo-te",
   "engines": {
     "vscode": "^1.84.0"
   },
