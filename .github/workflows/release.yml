@@ -1,0 +1,28 @@
+# This workflow is used to package the extension and publish it to Visual Studio Marketplace and as a GitHub release
+
+on:
+  # Triggers the workflow on push of version tag
+  push:
+    tags:
+      - "v*.*.*"
+
+name: Release Extension
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: npm ci
+      - name: Publish to Visual Studio Marketplace
+        id: package_and_publish
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
+      - name: Release to GitHub
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ${{steps.package_and_publish.outputs.vsixPath}}
