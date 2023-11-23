@@ -4,7 +4,7 @@ All notable changes to the "macish-icons" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Next]
+## [0.0.2]
 #### Updates
 - Polished README and CHANGELOG.
 
