@@ -1,11 +1,16 @@
 # Change Log
 
-All notable changes to the "macish-icons" extension will be documented in this file.
+All notable changes to the "macish-icons" extension will be documented here.
 
 <!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
 ## [Next]
-- Polishhed CHANGELOG.
+#### New
+- Added an icon for popular picture file extensions (`.png`, `.jpg`, `.jpeg`, `.webp`).
+
+#### Updates
+- Polished CHANGELOG.
+- Fixed color of SvelteKit file icon.
 
 ## [0.0.2]
 #### Updates

@@ -84,6 +84,9 @@
     "_pdf": {
       "iconPath": "./icons/pdf-file.png"
     },
+    "_picture": {
+      "iconPath": "./icons/picture-file.png"
+    }
   },
   "folder": "_folder",
   "folderExpanded": "_folder-open",
@@ -113,6 +116,10 @@
     "html": "_html",
     "md": "_markdown",
     "pdf": "_pdf",
+    "png": "_picture",
+    "jpg": "_picture",
+    "jpeg": "_picture",
+    "webp": "_picture"
   },
   "fileNames": {
     ".gitignore": "_git",
