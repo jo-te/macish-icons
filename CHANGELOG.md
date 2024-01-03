@@ -4,7 +4,7 @@ All notable changes to the "macish-icons" extension will be documented here.
 
 <!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
-## [Next]
+## [0.1.0]
 #### New
 - Added an icon for common picture file extensions (`.png`, `.jpg`, `.jpeg`, `.webp`).
 - Added an icon for `.txt` files.
