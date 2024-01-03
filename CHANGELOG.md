@@ -7,10 +7,11 @@ All notable changes to the "macish-icons" extension will be documented here.
 ## [Next]
 #### New
 - Added an icon for common picture file extensions (`.png`, `.jpg`, `.jpeg`, `.webp`).
+- Added an icon for `.txt` files.
 
 #### Updates
 - Polished CHANGELOG.
-- Fixed color of SvelteKit file icon.
+- Fixed color of `SvelteKit` file icon.
 
 ## [0.0.2]
 #### Updates

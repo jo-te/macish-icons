@@ -86,6 +86,9 @@
     },
     "_picture": {
       "iconPath": "./icons/picture-file.png"
+    },
+    "_txt": {
+      "iconPath": "./icons/txt-file.png"
     }
   },
   "folder": "_folder",
@@ -119,7 +122,8 @@
     "png": "_picture",
     "jpg": "_picture",
     "jpeg": "_picture",
-    "webp": "_picture"
+    "webp": "_picture",
+    "txt": "_txt"
   },
   "fileNames": {
     ".gitignore": "_git",
